@@ -1,0 +1,32 @@
+Q-1 What is Node.js ?
+
+1. JavaScript Runtimes: Node.js is an open-source, cross-platform runtime environment for executing JavaScript code outside of a browser.
+
+2. Node.js is a JavaScript in a different environment means running JavaScript on the server or any computer.
+
+3. Build on Chrome's V8 Engine: It runs on the V8 engine, which compiles JavaScript directly to native machine code, enhancing performance.
+
+4. V8 engine is written in C++ language for speed.
+
+5. V8 + Backend Features = Node.js .
+
+6. Design: Features an event-driven, non-blocking I/O model for efficiency.
+
+7. Full-Stack JavaScript: Allows using JavaScript on both server and client sides.
+
+8. Scalability: Ideal for scalable network applications due to its architecture.
+
+9. versatility: Suitable for web, real-time chat, and REST API servers.
+
+
+Q-2 What are the features of Node.js.
+
+1. Non-blocking I/O: Design to perform non-blocking operations by default, it Suitable for I/O-heavy operations.
+
+2. Networking Support: Support TCP/UDP sockets, which are crucial for building lower-level network applications that browsers can not handle.
+
+3. File System Access: Provides APIs to read and write files directly, which is not possible in browser environments for security reasons.
+
+4. Server-Side Capabilities: Node.js enables JavaScript to run on the server, handling HTTP requests, file operations, and other server-side functionalities.
+
+5. Modules: Organize code into reusable modules using require().
