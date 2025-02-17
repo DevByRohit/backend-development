@@ -38,6 +38,9 @@ const server = http.createServer((req, res) => {
 </html>
 `);
 
+  // redirect to product pages based on requested URL
+  // logic to redirect to different pages based on requested URL
+
   if (req.url === "/Home") {
     res.write("<h1>Welcome to Home Page!</h1>");
     return res.end();

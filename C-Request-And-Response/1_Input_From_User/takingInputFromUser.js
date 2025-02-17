@@ -1,9 +1,7 @@
-// require http module
-const http = require("http");
+// require filesystem module
 const fs = require("fs");
 
-// create a server object
-const server = http.createServer((req, res) => {
+const userRequestHandler = (req, res) => {
   // set response header
   if (req.url === "/") {
     res.setHeader("Content-Type", "text/html");
@@ -66,12 +64,6 @@ const server = http.createServer((req, res) => {
   res.write("<body><h1>Welcome to my Node Server!</h1></body>");
   res.write("</html>");
   res.end();
-});
+};
 
-// define port number
-const PORT = 3000;
-
-// start server
-server.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
-});
+module.exports = userRequestHandler;
