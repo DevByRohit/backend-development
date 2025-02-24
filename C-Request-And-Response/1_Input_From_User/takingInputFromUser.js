@@ -53,7 +53,7 @@ const userRequestHandler = (req, res) => {
       // }
       const userDetails = Object.fromEntries(params);
       console.log(userDetails);
-      fs.writeFileSync("user.txt", JSON.stringify(userDetails));
+      fs.writeFileSync("userInputData.txt", JSON.stringify(userDetails));
     });
     res.statusCode = 302;
     res.setHeader("Location", "/");
