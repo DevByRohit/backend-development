@@ -1,0 +1,15 @@
+{
+  "name": "e-errors-and-debugging",
+  "version": "1.0.0",
+  "description": "this project is all about errors and debugging.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Rohit Ahirwar",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
