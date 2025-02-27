@@ -1,0 +1,16 @@
+{
+  "name": "1_practice_set_middleware",
+  "version": "1.0.0",
+  "description": "This project based on middleware concept.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Rohit Ahirwar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
