@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        background-color: #fff264;
+        padding: 25px;
+      }
+      li {
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: #8effd0;
+        padding: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        font-size: large;
+      }
+      .second-nav {
+        font-size: medium;
+        text-decoration: underline;
+        color: blue;
+      }
+      header {
+        margin-top: 30px;
+        padding: 20px;
+        text-align: center;
+      }
+      main {
+        padding: 20px;
+        margin-top: 10px;
+        text-align: center;
+        font-size: large;
+      }
+      p {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/contact-us">Contact Us</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Welcome To Contact Project</h1>
+    </header>
+    <main>
+      <p>
+        Contact is a simple web application that allows you to send name and
+        email to contact someone.
+      </p>
+      <p>
+        To get started, click on the
+        <span><a class="second-nav" href="/contact-us">Contact Us</a></span>
+        link in the navigation bar.
+      </p>
+    </main>
+  </body>
+</html>
